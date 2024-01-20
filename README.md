@@ -10,3 +10,5 @@ Exit: Exits the program
 Progress will not be saved after exiting.
 
 I was unable to input the ability to pick from a select amount of starters which I hope to include in future inputs
+
+Co-coded with Nova Kwok
