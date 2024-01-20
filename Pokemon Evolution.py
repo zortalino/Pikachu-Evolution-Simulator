@@ -24,7 +24,7 @@ def evolve_pokemon():
 
 # Function to display evolution messages
 def display_pokemon():
-    print(pokemon_level)
+    print("level" + str(pokemon_level))
     print(pokemon_name)
     #Display the Pokemon's current name and level
 
@@ -40,7 +40,6 @@ while True:
         print("You battle against another trainer and win! Pokemon Level increased by 2")
         pokemon_level += 2
     elif(user_action=="3"):
-        display_pokemon()
         if(pokemon_name=="Pikachu"):
             print("""   ..__
     $$$b  `---.__
@@ -140,6 +139,7 @@ while True:
                        #########(      */(((                                    
                         .               ///(#                                   
                                       %%%%                          """)
+        display_pokemon()
     elif(user_action=="4"):
         quit()
     else:
